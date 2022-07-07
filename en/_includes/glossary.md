@@ -275,7 +275,7 @@ Submitted in pool {#submitted-in-pool}
 
 Task {#task}
 
-: A special assignment which annotators complete in [Toloka]({{ toloka }}). It is a part of a web page that can contain various objects: images, text, input fields, and others. The Toloker reads the instructions for the task, completes it and enters responses. In [Template Builder](../template-builder/), you can create an interface for such tasks.
+: A special assignment which annotators complete in [Toloka](https://toloka.ai/). It is a part of a web page that can contain various objects: images, text, input fields, and others. The Toloker reads the instructions for the task, completes it and enters responses. In [Template Builder](../template-builder/), you can create an interface for such tasks.
 
 Task interface {#task-interface}
 
@@ -295,7 +295,7 @@ Toloka API {#toloka-api}
 
 : The [Toloka API](https://toloka.ai/docs/api/) (Toloka application programming interface) describes methods (a set of classes, procedures, functions, structures, or constants) used by Toloka to interact with other computer programs, and allows you to create tasks and receive user responses (see the [documentation](https://toloka.ai/docs/api/concepts/about.html)).
 
-  The requests to the Toloka API are made using the [HTTPS protocol](https://en.wikipedia.org/wiki/HTTPS). The service returns data in the [JSON]({{ json }}) format.
+  The requests to the Toloka API are made using the [HTTPS protocol](https://en.wikipedia.org/wiki/HTTPS). The service returns data in the [JSON](https://www.json.org/json-en.html) format.
 
 Toloker rating {#toloker-rating}
 
