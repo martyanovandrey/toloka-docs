@@ -1,3 +1,3 @@
 # Глоссарий
 
-{% include [glossary](../../_includes/glossary.md) %}
+{% include [glossary](../../_includes/glossaryInclude.md) %}

@@ -2,7 +2,7 @@
 
 ## General terminology
 
-{% include [glossary](../_includes/glossary.md) %}
+{% include [glossary](../_includes/glossaryInclude.md) %}
 
 ## Categories of components (Template Builder) {#components}
 
