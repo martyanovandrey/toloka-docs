@@ -1,50 +1,73 @@
-### A
+[//]: # (### A)
 
-Active Tolokers {#active-tolokers}
+[//]: # ()
+[//]: # (Active Tolokers {#active-tolokers})
 
-: Tolokers who viewed or completed tasks during the last hour and match the [filters](#filters) specified in the [pool](#pool) settings. This is the number of Tolokers who will see your task if you publish it now.
+[//]: # ()
+[//]: # (: Tolokers who viewed or completed tasks during the last hour and match the [filters]&#40;#filters&#41; specified in the [pool]&#40;#pool&#41; settings. This is the number of Tolokers who will see your task if you publish it now.)
 
-Archive pool {#archive-pool}
+[//]: # ()
+[//]: # (Archive pool {#archive-pool})
 
-: A [pool](#pool) that was moved to the archive. Archive pools can't be started or edited and are not available for [assignment review](#assignment-review). The pool is automatically archived if there is no activity in it for a month.
+[//]: # ()
+[//]: # (: A [pool]&#40;#pool&#41; that was moved to the archive. Archive pools can't be started or edited and are not available for [assignment review]&#40;#assignment-review&#41;. The pool is automatically archived if there is no activity in it for a month.)
 
-Assignment review {#assignment-review}
+[//]: # ()
+[//]: # (Assignment review {#assignment-review})
 
-: A [pool](#pool) setting that allows you to check responses so you don't have to pay for poorly completed tasks.
+[//]: # ()
+[//]: # (: A [pool]&#40;#pool&#41; setting that allows you to check responses so you don't have to pay for poorly completed tasks.)
 
-### B
+[//]: # ()
+[//]: # (### B)
 
-Banning Tolokers {#banning-tolokers}
+[//]: # ()
+[//]: # (Banning Tolokers {#banning-tolokers})
 
-: You can block a Toloker's access to one or more [projects](#project). This lets you control manually which Tolokers will complete tasks. For example, you can choose all Tolokers with a [skill](#skill) value lower than N and block their access to tasks. You can also unblock access.
+[//]: # ()
+[//]: # (: You can block a Toloker's access to one or more [projects]&#40;#project&#41;. This lets you control manually which Tolokers will complete tasks. For example, you can choose all Tolokers with a [skill]&#40;#skill&#41; value lower than N and block their access to tasks. You can also unblock access.)
 
-### C
+[//]: # ()
+[//]: # (### C)
 
-Captcha (quality control rule) {#captcha}
+[//]: # ()
+[//]: # (Captcha &#40;quality control rule&#41; {#captcha})
 
-: Restricts access to tasks for Tolokers who fail to enter captcha several times in a row. Protects your project against fake users (robots).
+[//]: # ()
+[//]: # (: Restricts access to tasks for Tolokers who fail to enter captcha several times in a row. Protects your project against fake users &#40;robots&#41;.)
 
-Certified partners {#certified-partners}
+[//]: # ()
+[//]: # (Certified partners {#certified-partners})
 
-: Companies that take on the launch and implementation of your project and help you process the results. These companies have already integrated crowdsourcing into their business processes and offer excellent solutions.
+[//]: # ()
+[//]: # (: Companies that take on the launch and implementation of your project and help you process the results. These companies have already integrated crowdsourcing into their business processes and offer excellent solutions.)
 
-Checking completed tasks
+[//]: # ()
+[//]: # (Checking completed tasks)
 
-: Manually checking the responses received by the requester. The requester accepts or rejects the responses. Rejected responses aren't paid for.
+[//]: # ()
+[//]: # (: Manually checking the responses received by the requester. The requester accepts or rejects the responses. Rejected responses aren't paid for.)
 
-Completed tasks (quality control rule) {#completed-tasks}
+[//]: # ()
+[//]: # (Completed tasks &#40;quality control rule&#41; {#completed-tasks})
 
-: Number of completed [task suites](#task-suite) (taking [overlap](#overlap) into account).
+[//]: # ()
+[//]: # (: Number of completed [task suites]&#40;#task-suite&#41; &#40;taking [overlap]&#40;#overlap&#41; into account&#41;.)
 
-Component {#component}
+[//]: # ()
+[//]: # (Component {#component})
 
-: The task interface consists of ready-made components representing JSON objects with a specified structure. Components are categorized depending on their purpose, such as data entry fields, conditions, or actions. The name of the component is specified in the `type` property in the format `<category>.<name>`.
+[//]: # ()
+[//]: # (: The task interface consists of ready-made components representing JSON objects with a specified structure. Components are categorized depending on their purpose, such as data entry fields, conditions, or actions. The name of the component is specified in the `type` property in the format `<category>.<name>`.)
 
-  [List of components](../template-builder/reference/index.md)
+[//]: # ()
+[//]: # (  [List of components]&#40;../template-builder/reference/index.md&#41;)
 
-Configuration {#configuration}
+[//]: # ()
+[//]: # (Configuration {#configuration})
 
-: Description of your interface in the JSON format. This is also the name of the panel in the editor where you write this code.
+[//]: # ()
+[//]: # (: Description of your interface in the JSON format. This is also the name of the panel in the editor where you write this code.)
 
 Control task {#control-task}
 
