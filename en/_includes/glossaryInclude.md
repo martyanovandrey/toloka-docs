@@ -1,73 +1,50 @@
-[//]: # (### A)
+### A
 
-[//]: # ()
-[//]: # (Active Tolokers {#active-tolokers})
+Active Tolokers {#active-tolokers}
 
-[//]: # ()
-[//]: # (: Tolokers who viewed or completed tasks during the last hour and match the [filters]&#40;#filters&#41; specified in the [pool]&#40;#pool&#41; settings. This is the number of Tolokers who will see your task if you publish it now.)
+: Tolokers who viewed or completed tasks during the last hour and match the [filters](#filters) specified in the [pool](#pool) settings. This is the number of Tolokers who will see your task if you publish it now.
 
-[//]: # ()
-[//]: # (Archive pool {#archive-pool})
+Archive pool {#archive-pool}
 
-[//]: # ()
-[//]: # (: A [pool]&#40;#pool&#41; that was moved to the archive. Archive pools can't be started or edited and are not available for [assignment review]&#40;#assignment-review&#41;. The pool is automatically archived if there is no activity in it for a month.)
+: A [pool](#pool) that was moved to the archive. Archive pools can't be started or edited and are not available for [assignment review](#assignment-review). The pool is automatically archived if there is no activity in it for a month.
 
-[//]: # ()
-[//]: # (Assignment review {#assignment-review})
+Assignment review {#assignment-review}
 
-[//]: # ()
-[//]: # (: A [pool]&#40;#pool&#41; setting that allows you to check responses so you don't have to pay for poorly completed tasks.)
+: A [pool](#pool) setting that allows you to check responses so you don't have to pay for poorly completed tasks.
 
-[//]: # ()
-[//]: # (### B)
+### B
 
-[//]: # ()
-[//]: # (Banning Tolokers {#banning-tolokers})
+Banning Tolokers {#banning-tolokers}
 
-[//]: # ()
-[//]: # (: You can block a Toloker's access to one or more [projects]&#40;#project&#41;. This lets you control manually which Tolokers will complete tasks. For example, you can choose all Tolokers with a [skill]&#40;#skill&#41; value lower than N and block their access to tasks. You can also unblock access.)
+: You can block a Toloker's access to one or more [projects](#project). This lets you control manually which Tolokers will complete tasks. For example, you can choose all Tolokers with a [skill](#skill) value lower than N and block their access to tasks. You can also unblock access.
 
-[//]: # ()
-[//]: # (### C)
+### C
 
-[//]: # ()
-[//]: # (Captcha &#40;quality control rule&#41; {#captcha})
+Captcha (quality control rule) {#captcha}
 
-[//]: # ()
-[//]: # (: Restricts access to tasks for Tolokers who fail to enter captcha several times in a row. Protects your project against fake users &#40;robots&#41;.)
+: Restricts access to tasks for Tolokers who fail to enter captcha several times in a row. Protects your project against fake users (robots).
 
-[//]: # ()
-[//]: # (Certified partners {#certified-partners})
+Certified partners {#certified-partners}
 
-[//]: # ()
-[//]: # (: Companies that take on the launch and implementation of your project and help you process the results. These companies have already integrated crowdsourcing into their business processes and offer excellent solutions.)
+: Companies that take on the launch and implementation of your project and help you process the results. These companies have already integrated crowdsourcing into their business processes and offer excellent solutions.
 
-[//]: # ()
-[//]: # (Checking completed tasks)
+Checking completed tasks
 
-[//]: # ()
-[//]: # (: Manually checking the responses received by the requester. The requester accepts or rejects the responses. Rejected responses aren't paid for.)
+: Manually checking the responses received by the requester. The requester accepts or rejects the responses. Rejected responses aren't paid for.
 
-[//]: # ()
-[//]: # (Completed tasks &#40;quality control rule&#41; {#completed-tasks})
+Completed tasks (quality control rule) {#completed-tasks}
 
-[//]: # ()
-[//]: # (: Number of completed [task suites]&#40;#task-suite&#41; &#40;taking [overlap]&#40;#overlap&#41; into account&#41;.)
+: Number of completed [task suites](#task-suite) (taking [overlap](#overlap) into account).
 
-[//]: # ()
-[//]: # (Component {#component})
+Component {#component}
 
-[//]: # ()
-[//]: # (: The task interface consists of ready-made components representing JSON objects with a specified structure. Components are categorized depending on their purpose, such as data entry fields, conditions, or actions. The name of the component is specified in the `type` property in the format `<category>.<name>`.)
+: The task interface consists of ready-made components representing JSON objects with a specified structure. Components are categorized depending on their purpose, such as data entry fields, conditions, or actions. The name of the component is specified in the `type` property in the format `<category>.<name>`.
 
-[//]: # ()
-[//]: # (  [List of components]&#40;../template-builder/reference/index.md&#41;)
+  [List of components](../template-builder/reference/index.md)
 
-[//]: # ()
-[//]: # (Configuration {#configuration})
+Configuration {#configuration}
 
-[//]: # ()
-[//]: # (: Description of your interface in the JSON format. This is also the name of the panel in the editor where you write this code.)
+: Description of your interface in the JSON format. This is also the name of the panel in the editor where you write this code.
 
 Control task {#control-task}
 
@@ -169,67 +146,104 @@ Interested users {#interested-users}
 
 : The number of Tolokers who started at least one [task suite](#task-suite).
 
-### K
+[//]: # ()
+[//]: # (### K)
 
-Keeping the task order {#keep-task-order}
+[//]: # ()
+[//]: # (Keeping the task order {#keep-task-order})
 
-: Task suites in the [pool](#pool) are distributed in the same order as they are in the uploaded [file](#tsv). The tasks within each suite are shuffled. [Learn more](https://toloka.ai/docs/guide/concepts/save-order.html)
+[//]: # ()
+[//]: # (: Task suites in the [pool]&#40;#pool&#41; are distributed in the same order as they are in the uploaded [file]&#40;#tsv&#41;. The tasks within each suite are shuffled. [Learn more]&#40;https://toloka.ai/docs/guide/concepts/save-order.html&#41;)
 
-### L
+[//]: # ()
+[//]: # (### L)
 
-List of target languages {#target-languages}
+[//]: # ()
+[//]: # (List of target languages {#target-languages})
 
-: Used in the [Translations](https://toloka.ai/docs/guide/concepts/project-languages.html#project-languages__how-it-works) section if there is no source language.
+[//]: # ()
+[//]: # (: Used in the [Translations]&#40;https://toloka.ai/docs/guide/concepts/project-languages.html#project-languages__how-it-works&#41; section if there is no source language.)
 
-  Display order:
+[//]: # ()
+[//]: # (  Display order:)
 
-  - English
-  - Russian
-  - Turkish
-  - French
-  - Indonesian
-  - Vietnamese
-  - Uzbek
-  - Spanish
-  - German
-  - Italian
-  - Polish
+[//]: # ()
+[//]: # (  - English)
 
-### M
+[//]: # (  - Russian)
 
-Majority vote (quality control rule) {#majority-vote}
+[//]: # (  - Turkish)
 
-: A [quality control](#quality-control) method that considers a response correct if it is chosen by the majority of Tolokers (also known as consensus). Other responses are considered incorrect.
+[//]: # (  - French)
 
-### O
+[//]: # (  - Indonesian)
 
-Overlap {#overlap}
+[//]: # (  - Vietnamese)
 
-: The number of Tolokers who should complete each task in the [pool](#pool). Overlap is used to make sure the results are reliable.
+[//]: # (  - Uzbek)
 
-### P
+[//]: # (  - Spanish)
 
-Personalized quality forecast {#personilized-quality-forecast}
+[//]: # (  - German)
 
-: A personalized quality forecast is based on a large amount of data about user behavior in the system, how other users completed your task, and the task itself.
+[//]: # (  - Italian)
 
-Pool {#pool}
+[//]: # (  - Polish)
 
-: A set of paid tasks that share the same properties (such as Toloker selection settings and payment per [task suite](#task-suite)) and are sent out for completion at the same time.
+[//]: # ()
+[//]: # (### M)
 
-Project {#project}
+[//]: # ()
+[//]: # (Majority vote &#40;quality control rule&#41; {#majority-vote})
 
-: A project consists of [pools](#pool) with tasks. Project settings define the [task interface](#task-interface) and the [input and output data](#input-output-data).
+[//]: # ()
+[//]: # (: A [quality control]&#40;#quality-control&#41; method that considers a response correct if it is chosen by the majority of Tolokers &#40;also known as consensus&#41;. Other responses are considered incorrect.)
 
-  Settings for creating tasks:
+[//]: # ()
+[//]: # (### O)
 
-  - Parameters for objects that are shown in the [task suite](#task-suite) (images, text, and so on).
-  - Parameters for input fields.
-  - The visual appearance of tasks.
+[//]: # ()
+[//]: # (Overlap {#overlap})
 
-Project template {#project-template}
+[//]: # ()
+[//]: # (: The number of Tolokers who should complete each task in the [pool]&#40;#pool&#41;. Overlap is used to make sure the results are reliable.)
 
-: The template contains pre-configured [input and output data](#input-output-data) fields and the [task interface](#task-interface), which you can edit.
+[//]: # ()
+[//]: # (### P)
+
+[//]: # ()
+[//]: # (Personalized quality forecast {#personilized-quality-forecast})
+
+[//]: # ()
+[//]: # (: A personalized quality forecast is based on a large amount of data about user behavior in the system, how other users completed your task, and the task itself.)
+
+[//]: # ()
+[//]: # (Pool {#pool})
+
+[//]: # ()
+[//]: # (: A set of paid tasks that share the same properties &#40;such as Toloker selection settings and payment per [task suite]&#40;#task-suite&#41;&#41; and are sent out for completion at the same time.)
+
+[//]: # ()
+[//]: # (Project {#project})
+
+[//]: # ()
+[//]: # (: A project consists of [pools]&#40;#pool&#41; with tasks. Project settings define the [task interface]&#40;#task-interface&#41; and the [input and output data]&#40;#input-output-data&#41;.)
+
+[//]: # ()
+[//]: # (  Settings for creating tasks:)
+
+[//]: # ()
+[//]: # (  - Parameters for objects that are shown in the [task suite]&#40;#task-suite&#41; &#40;images, text, and so on&#41;.)
+
+[//]: # (  - Parameters for input fields.)
+
+[//]: # (  - The visual appearance of tasks.)
+
+[//]: # ()
+[//]: # (Project template {#project-template})
+
+[//]: # ()
+[//]: # (: The template contains pre-configured [input and output data]&#40;#input-output-data&#41; fields and the [task interface]&#40;#task-interface&#41;, which you can edit.)
 
 ### Q
 
