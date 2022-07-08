@@ -4,62 +4,90 @@
 
 {% include [glossary](../_includes/glossaryInclude.md) %}
 
-## Categories of components (Template Builder) {#components}
+[//]: # (## Categories of components &#40;Template Builder&#41; {#components})
 
-### A
+[//]: # ()
+[//]: # (### A)
 
-Action {#action}
+[//]: # ()
+[//]: # (Action {#action})
 
-: A category of components that perform actions, such as open a link, display a message, or play a video. Some components work with data. For example, they can change the value from `true` to `false`.
+[//]: # ()
+[//]: # (: A category of components that perform actions, such as open a link, display a message, or play a video. Some components work with data. For example, they can change the value from `true` to `false`.)
 
-  [List of actions](reference/actions.md)
+[//]: # ()
+[//]: # (  [List of actions]&#40;reference/actions.md&#41;)
 
-### C
+[//]: # ()
+[//]: # (### C)
 
-Condition {#condition}
+[//]: # ()
+[//]: # (Condition {#condition})
 
-: Component category to check whether the expression matches the specified condition. You can use them to check that the text is entered in a field.
+[//]: # ()
+[//]: # (: Component category to check whether the expression matches the specified condition. You can use them to check that the text is entered in a field.)
 
-  [List of conditions](reference/conditions.md)
+[//]: # ()
+[//]: # (  [List of conditions]&#40;reference/conditions.md&#41;)
 
-### D
+[//]: # ()
+[//]: # (### D)
 
-Data entry field {#data-entry-field}
+[//]: # ()
+[//]: # (Data entry field {#data-entry-field})
 
-: Category of components that create data entry fields, such as text fields or drop-down lists.
+[//]: # ()
+[//]: # (: Category of components that create data entry fields, such as text fields or drop-down lists.)
 
-: [List of data entry fields](reference/fields.md)
+[//]: # ()
+[//]: # (: [List of data entry fields]&#40;reference/fields.md&#41;)
 
-### E
+[//]: # ()
+[//]: # (### E)
 
-Element layout {#element-layout}
+[//]: # ()
+[//]: # (Element layout {#element-layout})
 
-: Category of components used to arrange the interface elements, such as in columns or side-by-side.
+[//]: # ()
+[//]: # (: Category of components used to arrange the interface elements, such as in columns or side-by-side.)
 
-  [List of layout options](reference/layouts.md)
+[//]: # ()
+[//]: # (  [List of layout options]&#40;reference/layouts.md&#41;)
 
-### H
+[//]: # ()
+[//]: # (### H)
 
-Helper {#helper}
+[//]: # ()
+[//]: # (Helper {#helper})
 
-: Category of components for auxiliary operations, such as working with arrays.
+[//]: # ()
+[//]: # (: Category of components for auxiliary operations, such as working with arrays.)
 
-  [List of helpers](reference/helpers.md)
+[//]: # ()
+[//]: # (  [List of helpers]&#40;reference/helpers.md&#41;)
 
-### P
+[//]: # ()
+[//]: # (### P)
 
-Plugin {#plugin}
+[//]: # ()
+[//]: # (Plugin {#plugin})
 
-: Category of components to enable advanced features. For example, `plugin.hotkeys` lets you set up shortcuts.
+[//]: # ()
+[//]: # (: Category of components to enable advanced features. For example, `plugin.hotkeys` lets you set up shortcuts.)
 
-  [List of plugins](reference/plugins.md)
+[//]: # ()
+[//]: # (  [List of plugins]&#40;reference/plugins.md&#41;)
 
-### V
+[//]: # ()
+[//]: # (### V)
 
-View {#view}
+[//]: # ()
+[//]: # (View {#view})
 
-: Category of components for creating visual interface elements. Examples include text, list, audio player, or image.
+[//]: # ()
+[//]: # (: Category of components for creating visual interface elements. Examples include text, list, audio player, or image.)
 
-  [List of views](reference/views.md)
+[//]: # ()
+[//]: # (  [List of views]&#40;reference/views.md&#41;)
 
-[![](_images/buttons/contact-support.svg)](concepts/support.md)
+[//]: # ([![]&#40;_images/buttons/contact-support.svg&#41;]&#40;concepts/support.md&#41;)
