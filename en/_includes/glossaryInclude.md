@@ -75,211 +75,212 @@ Dynamic pricing {#dynamic-pricing}
 
 : Allows you to additionally set other prices that depend on the Toloker's [skill](#skill). For example, to pay more to those who have a higher skill. [Learn more](https://toloka.ai/docs/guide/concepts/dynamic-pricing.html)
 
-### E
-
-Earnings (quality control rule) {#earnings}
-
-: Restricts the Toloker's earnings in the [pool](#pool) for a day to get responses from as many Tolokers as possible and provide protection against robots.
-
-Exam {#exam}
-
-: A [pool](#pool) with [control tasks](#control-task) for choosing Tolokers. You can assign [skills](#skill) to Tolokers depending on whether their responses are correct and identify the best Tolokers.
-
-### F
-
-Fast responses {#fast-responses}
-
-: Restricts access to tasks for Tolokers who respond too quickly. You can use it to:
-
-  - Suspend access for Tolokers who cheat in their responses (in this case, set the time required to complete a [task suite](#task-suite) when giving random responses).
-  - Provide protection from robots (in this case, the time for completing the task suite should be 2 times less).
-
-Fee {#fee}
-
-: The requester is charged a fee for using Toloka — a percentage of the cost of tasks. It is 30%, but not less than $0.005.
-
-Field task {#field-task}
-
-: A task to be performed in the mobile app. It usually contains a point on the map that the Toloker needs to go to, check something, and take photos.
-
-Filters {#filters}
-
-: Criteria for choosing Tolokers. For example, you can select only Tolokers who speak English or have a certain skill.
-
-  Filters are used in the [pool](#pool) settings on the [Users](https://toloka.yandex.com/en/requester/workers) page and for [sending messages](https://toloka.ai/docs/guide/concepts/messaging.html) to a group of users. [Learn more](https://toloka.ai/docs/guide/concepts/filters.html)
-
-### G
-
-General task {#general-task}
-
-: A task that doesn't provide hints or the correct response. The responses are provided by the Tolokers. These are the general tasks you upload to the [pool](#pool) to give to the Tolokers.
-
-  In addition, there are [control](#control-task) and [training](#training-task) tasks.
-
-### I
-
-Incomplete task suite {#incomplete-task-suite}
-
-: The last suite with an insufficient number of [general](#general-task) tasks. This is generated if less than the minimum remaining number of general tasks are not completed. In this case, the number of control and training tasks must be complete.
-
-Input and output data {#input-output-data}
-
-: The format of input and output data is set in the **Specifications** field.
-
-  _Input data_ is the source data you want to display or use. For example, links to images that will be shown to Tolokers. Use the `data.input` component of [Template Builder](../template-builder/) to access the input data.
-
-  _Output_ is the data you receive after the task is completed, like the Tolokers' responses to your questions. Use the `data.output` component of Template Builder to access the output data.
-
-  See the Template Builder [Read and write](../template-builder/operations/input-output-data.md) instructions to learn about working with data.
-
-Internal data {#internal-data}
-
-: The data available only from within the task. This data is not saved to the results. Use this data to calculate or store intermediate values. To access the internal data, use the `data.internal` component of [Template Builder](../template-builder/).
-
-  See the Template Builder [Read and write](../template-builder/operations/input-output-data.md) instructions to learn about working with data.
-
-Instructions {#instructions}
-
-: Task instructions that the Toloker sees when choosing and completing the task. The clarity and completeness of the instructions affect response quality and the [project](#project) rating. Good instructions help the Toloker complete the task correctly.
-
-Interested users {#interested-users}
-
-: The number of Tolokers who started at least one [task suite](#task-suite).
-
-
-[//]: # (### K)
+[//]: # ()
+[//]: # (### E)
 
 [//]: # ()
-[//]: # ()
-[//]: # (Keeping the task order {#keep-task-order})
+[//]: # (Earnings &#40;quality control rule&#41; {#earnings})
 
 [//]: # ()
-[//]: # ()
-[//]: # (: Task suites in the [pool]&#40;#pool&#41; are distributed in the same order as they are in the uploaded [file]&#40;#tsv&#41;. The tasks within each suite are shuffled. [Learn more]&#40;https://toloka.ai/docs/guide/concepts/save-order.html&#41;)
+[//]: # (: Restricts the Toloker's earnings in the [pool]&#40;#pool&#41; for a day to get responses from as many Tolokers as possible and provide protection against robots.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (### L)
+[//]: # (Exam {#exam})
 
 [//]: # ()
-[//]: # ()
-[//]: # (List of target languages {#target-languages})
+[//]: # (: A [pool]&#40;#pool&#41; with [control tasks]&#40;#control-task&#41; for choosing Tolokers. You can assign [skills]&#40;#skill&#41; to Tolokers depending on whether their responses are correct and identify the best Tolokers.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (: Used in the [Translations]&#40;https://toloka.ai/docs/guide/concepts/project-languages.html#project-languages__how-it-works&#41; section if there is no source language.)
+[//]: # (### F)
 
 [//]: # ()
-[//]: # ()
-[//]: # (  Display order:)
+[//]: # (Fast responses {#fast-responses})
 
 [//]: # ()
-[//]: # ()
-[//]: # (  - English)
+[//]: # (: Restricts access to tasks for Tolokers who respond too quickly. You can use it to:)
 
 [//]: # ()
-[//]: # (  - Russian)
+[//]: # (  - Suspend access for Tolokers who cheat in their responses &#40;in this case, set the time required to complete a [task suite]&#40;#task-suite&#41; when giving random responses&#41;.)
+
+[//]: # (  - Provide protection from robots &#40;in this case, the time for completing the task suite should be 2 times less&#41;.)
 
 [//]: # ()
-[//]: # (  - Turkish)
+[//]: # (Fee {#fee})
 
 [//]: # ()
-[//]: # (  - French)
+[//]: # (: The requester is charged a fee for using Toloka — a percentage of the cost of tasks. It is 30%, but not less than $0.005.)
 
 [//]: # ()
-[//]: # (  - Indonesian)
+[//]: # (Field task {#field-task})
 
 [//]: # ()
-[//]: # (  - Vietnamese)
+[//]: # (: A task to be performed in the mobile app. It usually contains a point on the map that the Toloker needs to go to, check something, and take photos.)
 
 [//]: # ()
-[//]: # (  - Uzbek)
+[//]: # (Filters {#filters})
 
 [//]: # ()
-[//]: # (  - Spanish)
+[//]: # (: Criteria for choosing Tolokers. For example, you can select only Tolokers who speak English or have a certain skill.)
 
 [//]: # ()
-[//]: # (  - German)
+[//]: # (  Filters are used in the [pool]&#40;#pool&#41; settings on the [Users]&#40;https://toloka.yandex.com/en/requester/workers&#41; page and for [sending messages]&#40;https://toloka.ai/docs/guide/concepts/messaging.html&#41; to a group of users. [Learn more]&#40;https://toloka.ai/docs/guide/concepts/filters.html&#41;)
 
 [//]: # ()
-[//]: # (  - Italian)
+[//]: # (### G)
 
 [//]: # ()
-[//]: # (  - Polish)
+[//]: # (General task {#general-task})
 
 [//]: # ()
-[//]: # ()
-[//]: # (### M)
+[//]: # (: A task that doesn't provide hints or the correct response. The responses are provided by the Tolokers. These are the general tasks you upload to the [pool]&#40;#pool&#41; to give to the Tolokers.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (Majority vote &#40;quality control rule&#41; {#majority-vote})
+[//]: # (  In addition, there are [control]&#40;#control-task&#41; and [training]&#40;#training-task&#41; tasks.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (: A [quality control]&#40;#quality-control&#41; method that considers a response correct if it is chosen by the majority of Tolokers &#40;also known as consensus&#41;. Other responses are considered incorrect.)
+[//]: # (### I)
 
 [//]: # ()
-[//]: # ()
-[//]: # (### O)
+[//]: # (Incomplete task suite {#incomplete-task-suite})
 
 [//]: # ()
-[//]: # ()
-[//]: # (Overlap {#overlap})
+[//]: # (: The last suite with an insufficient number of [general]&#40;#general-task&#41; tasks. This is generated if less than the minimum remaining number of general tasks are not completed. In this case, the number of control and training tasks must be complete.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (: The number of Tolokers who should complete each task in the [pool]&#40;#pool&#41;. Overlap is used to make sure the results are reliable.)
+[//]: # (Input and output data {#input-output-data})
 
 [//]: # ()
-[//]: # ()
-[//]: # (### P)
+[//]: # (: The format of input and output data is set in the **Specifications** field.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (Personalized quality forecast {#personilized-quality-forecast})
+[//]: # (  _Input data_ is the source data you want to display or use. For example, links to images that will be shown to Tolokers. Use the `data.input` component of [Template Builder]&#40;../template-builder/&#41; to access the input data.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (: A personalized quality forecast is based on a large amount of data about user behavior in the system, how other users completed your task, and the task itself.)
+[//]: # (  _Output_ is the data you receive after the task is completed, like the Tolokers' responses to your questions. Use the `data.output` component of Template Builder to access the output data.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (Pool {#pool})
+[//]: # (  See the Template Builder [Read and write]&#40;../template-builder/operations/input-output-data.md&#41; instructions to learn about working with data.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (: A set of paid tasks that share the same properties &#40;such as Toloker selection settings and payment per [task suite]&#40;#task-suite&#41;&#41; and are sent out for completion at the same time.)
+[//]: # (Internal data {#internal-data})
 
 [//]: # ()
-[//]: # ()
-[//]: # (Project {#project})
+[//]: # (: The data available only from within the task. This data is not saved to the results. Use this data to calculate or store intermediate values. To access the internal data, use the `data.internal` component of [Template Builder]&#40;../template-builder/&#41;.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (: A project consists of [pools]&#40;#pool&#41; with tasks. Project settings define the [task interface]&#40;#task-interface&#41; and the [input and output data]&#40;#input-output-data&#41;.)
+[//]: # (  See the Template Builder [Read and write]&#40;../template-builder/operations/input-output-data.md&#41; instructions to learn about working with data.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (  Settings for creating tasks:)
+[//]: # (Instructions {#instructions})
 
 [//]: # ()
-[//]: # ()
-[//]: # (  - Parameters for objects that are shown in the [task suite]&#40;#task-suite&#41; &#40;images, text, and so on&#41;.)
+[//]: # (: Task instructions that the Toloker sees when choosing and completing the task. The clarity and completeness of the instructions affect response quality and the [project]&#40;#project&#41; rating. Good instructions help the Toloker complete the task correctly.)
 
 [//]: # ()
-[//]: # (  - Parameters for input fields.)
+[//]: # (Interested users {#interested-users})
 
 [//]: # ()
-[//]: # (  - The visual appearance of tasks.)
+[//]: # (: The number of Tolokers who started at least one [task suite]&#40;#task-suite&#41;.)
 
 [//]: # ()
-[//]: # ()
-[//]: # (Project template {#project-template})
 
-[//]: # ()
-[//]: # ()
-[//]: # (: The template contains pre-configured [input and output data]&#40;#input-output-data&#41; fields and the [task interface]&#40;#task-interface&#41;, which you can edit.)
+### K
+
+
+Keeping the task order {#keep-task-order}
+
+
+: Task suites in the [pool](#pool) are distributed in the same order as they are in the uploaded [file](#tsv). The tasks within each suite are shuffled. [Learn more](https://toloka.ai/docs/guide/concepts/save-order.html)
+
+
+### L
+
+
+List of target languages {#target-languages}
+
+
+: Used in the [Translations](https://toloka.ai/docs/guide/concepts/project-languages.html#project-languages__how-it-works) section if there is no source language.
+
+
+  Display order:
+
+
+  - English
+
+  - Russian
+
+  - Turkish
+
+  - French
+
+  - Indonesian
+
+  - Vietnamese
+
+  - Uzbek
+
+  - Spanish
+
+  - German
+
+  - Italian
+
+  - Polish
+
+
+### M
+
+
+Majority vote (quality control rule) {#majority-vote}
+
+
+: A [quality control](#quality-control) method that considers a response correct if it is chosen by the majority of Tolokers (also known as consensus). Other responses are considered incorrect.
+
+
+### O
+
+
+Overlap {#overlap}
+
+
+: The number of Tolokers who should complete each task in the [pool](#pool). Overlap is used to make sure the results are reliable.
+
+
+### P
+
+
+Personalized quality forecast {#personilized-quality-forecast}
+
+
+: A personalized quality forecast is based on a large amount of data about user behavior in the system, how other users completed your task, and the task itself.
+
+
+Pool {#pool}
+
+
+: A set of paid tasks that share the same properties (such as Toloker selection settings and payment per [task suite](#task-suite)) and are sent out for completion at the same time.
+
+
+Project {#project}
+
+
+: A project consists of [pools](#pool) with tasks. Project settings define the [task interface](#task-interface) and the [input and output data](#input-output-data).
+
+
+  Settings for creating tasks:
+
+
+  - Parameters for objects that are shown in the [task suite](#task-suite) (images, text, and so on).
+
+  - Parameters for input fields.
+
+  - The visual appearance of tasks.
+
+
+Project template {#project-template}
+
+
+: The template contains pre-configured [input and output data](#input-output-data) fields and the [task interface](#task-interface), which you can edit.
 
 ### Q
 
