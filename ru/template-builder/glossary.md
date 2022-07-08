@@ -2,7 +2,7 @@
 
 ## Общие термины {#common}
 
-{% include [glossary](../_includes/glossaryInclude.md) %}
+[//]: # ({% include [glossary]&#40;../_includes/glossaryInclude.md&#41; %})
 
 ## Категории компонентов (конструктор шаблонов) {#components}
 

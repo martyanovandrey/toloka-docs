@@ -1,16 +1,22 @@
-### A
+[//]: # (### A)
 
-Active Tolokers {#active-tolokers}
+[//]: # ()
+[//]: # (Active Tolokers {#active-tolokers})
 
-: Tolokers who viewed or completed tasks during the last hour and match the [filters](#filters) specified in the [pool](#pool) settings. This is the number of Tolokers who will see your task if you publish it now.
+[//]: # ()
+[//]: # (: Tolokers who viewed or completed tasks during the last hour and match the [filters]&#40;#filters&#41; specified in the [pool]&#40;#pool&#41; settings. This is the number of Tolokers who will see your task if you publish it now.)
 
-Archive pool {#archive-pool}
+[//]: # ()
+[//]: # (Archive pool {#archive-pool})
 
-: A [pool](#pool) that was moved to the archive. Archive pools can't be started or edited and are not available for [assignment review](#assignment-review). The pool is automatically archived if there is no activity in it for a month.
+[//]: # ()
+[//]: # (: A [pool]&#40;#pool&#41; that was moved to the archive. Archive pools can't be started or edited and are not available for [assignment review]&#40;#assignment-review&#41;. The pool is automatically archived if there is no activity in it for a month.)
 
-Assignment review {#assignment-review}
+[//]: # ()
+[//]: # (Assignment review {#assignment-review})
 
-: A [pool](#pool) setting that allows you to check responses so you don't have to pay for poorly completed tasks.
+[//]: # ()
+[//]: # (: A [pool]&#40;#pool&#41; setting that allows you to check responses so you don't have to pay for poorly completed tasks.)
 
 ### B
 
